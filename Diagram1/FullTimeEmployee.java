@@ -2,8 +2,8 @@ package Diagram1;
 
 public class FullTimeEmployee extends Employee {
     private int salary; 
+    private static final int LABOUR_DAYS = 15;
 
-    private static int LABOUR_DAYS = 15;
     public FullTimeEmployee(String name, int id, int salary) {
         super(name, id);
         this.salary = salary;
