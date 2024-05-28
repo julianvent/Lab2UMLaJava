@@ -10,6 +10,10 @@ public class PartTimeEmployee extends Employee {
         this.rate = rate;
     }
 
+    public PartTimeEmployee(PartTimeEmployee partTimer) {
+        this(partTimer.getName(), partTimer.getId(), partTimer.getNumberOfWorkHours(), partTimer.getRate());
+    }
+
     @Override
     public void display() {
         super.display();

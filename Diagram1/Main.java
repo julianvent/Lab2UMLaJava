@@ -22,5 +22,8 @@ public class Main {
         company.deleteEmployee("Hola");
         
         company.searchName("Adios");
+
+        Employee employee3 = new Employee(employee);
+        employee3.display();
     }
 }

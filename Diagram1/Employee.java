@@ -10,7 +10,7 @@ public class Employee {
     }
 
     public Employee(Employee employee) {
-
+        this(employee.getName(), employee.getId());
     }
 
     public String getName() {
